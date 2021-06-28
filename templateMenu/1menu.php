@@ -1,4 +1,4 @@
-<?php if ($parametrsScreen['screen_active'] == 0) {?>
+<?php if ($parametrsScreen['screen_active'] == 0||1) {?>
         <body class="mdb-color darken-3 text-white bkgr">
         </body>
     <?php }else{?>
