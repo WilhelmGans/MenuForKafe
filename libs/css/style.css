@@ -1,0 +1,55 @@
+@font-face{
+    font-family: 'Dela Gothic One';
+    src: url(/libs/font/DelaGothicOne-Regular.ttf);
+}
+@font-face{
+    font-family: 'Oswald';
+    src: url(/libs/font/YanoneKaffeesatz-VariableFont_wght.ttf);
+}
+.bkgr{
+    background: url(/libs/img/bg.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+.fs-col-1 .card-text .waves-effect .row .colum .fs{
+	text-transform:lowercase;
+	font-size: 2.3rem !important;
+}
+.fs-col-2 .card-text .waves-effect .row .colum .fs{
+	text-transform:lowercase;
+	font-size: 2.3rem !important;
+}
+.fs{
+	text-transform:lowercase !important;
+    font-size: 35px;
+}
+body{
+    font-family: 'Oswald' !important;
+    text-transform: uppercase;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+.container-fluid{
+    min-height: 100% !important;
+}
+.cart-title .cart-text h1{
+    font-size: 43px !important;
+}
+.cart-body{
+    text-transform:uppercase;
+	font-size: 40px !important;
+}
+.colum{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.massFont{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic;
+    text-transform: none;
+}
